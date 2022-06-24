@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=PT+Serif&family=Red+Hat+Display:wght@500&family=Source+Sans+Pro:wght@300&display=swap');
+@font-face{
+    font-family: "Redes";
+    src: url(../fonts/Redes.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 15px;
+}
+header{
+    background-color: #3BACB6;
+    color: #fff;
+    height: 10vh;
+}
+nav{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    text-decoration: none;
+}
+.menu{
+    display: inline-block;
+    text-decoration: none;
+    color: #f1f1f1;
+    margin: 0px 1.5rem;
+    font-size: 1rem;
+    position: relative;
+    font-family: 'Red Hat Display', sans-serif;
+}
+#imagen{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+#parte1{
+    background-color: #B3E8E5;
+    width: 100%;
+}
+footer{
+    background-color: #3BACB6;
+    height: 10vh;
+}
+#yo{
+   width: 50%;
+}
+.logotipo{
+    width: 50px;
+    padding-bottom: 5px;
+}
+#centro{
+    text-align: center;
+}
+.redes{
+    font-family: "Redes";
+    src: url(../fonts/Redes.ttf);
+    display: inline-block;
+    text-decoration: none;
+    font-size: 50px;
+}
+#menua{
+    border-bottom: 2px solid #f1f1f1;
+}
